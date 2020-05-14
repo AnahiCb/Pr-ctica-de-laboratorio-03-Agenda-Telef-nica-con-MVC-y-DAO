@@ -17,7 +17,7 @@ public interface IUsuarioDao {
     //Métodos CRUD
     public void create(Usuario usuario);
 
-    public Usuario read(String correo, String contra);//
+    public Usuario read(String correo, String contrasenia);//
 
     public void update(Usuario usuario);
 
