@@ -6,17 +6,24 @@
 package ec.edu.ups.modelo;
 
 import java.util.Objects;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author Anahi
  */
 public class Usuario {
+
     private String cedula;
     private String nombre;
     private String apellido;
     private String correo;
     private String contraseña;
+    private List<Telefono> telefonos; //Atributo para agregar 
+
+    public Usuario() {
+    }
 
     public Usuario(String cedula, String nombre, String apellido, String correo, String contraseña) {
         this.cedula = cedula;
@@ -24,6 +31,7 @@ public class Usuario {
         this.apellido = apellido;
         this.correo = correo;
         this.contraseña = contraseña;
+        telefonos = new ArrayList<>();
     }
 
     public String getCedula() {
@@ -66,6 +74,32 @@ public class Usuario {
         this.contraseña = contraseña;
     }
 
+    //metodos de agregacion
+    public void agregarTelefono(Telefono telefono) {
+        telefonos.add(telefono);
+    }
+
+    public void actualizarTelefono(Telefono telefono) {
+        if (telefonos.contains(telefono)) {
+            int index = telefonos.indexOf(telefono);
+            telefonos.set(index, telefono);
+
+        }
+    }
+
+    public void eliminarTelefono(Telefono telefono) {
+        if (telefonos.contains(telefono)) {
+            int index = telefonos.indexOf(telefono);
+            telefonos.remove(index);
+
+        }
+
+    }
+
+    public List<Telefono> listar() {
+        return telefonos;
+    }
+
     @Override
     public int hashCode() {
         int hash = 3;
@@ -95,6 +129,5 @@ public class Usuario {
     public String toString() {
         return "Usuario{" + "cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", correo=" + correo + ", contrase\u00f1a=" + contraseña + '}';
     }
-    
-    
+
 }
