@@ -8,7 +8,6 @@ import ec.edu.ups.controlador.ControladorTelefono;
 import ec.edu.ups.controlador.ControladorUsuario;
 import ec.edu.ups.dao.TelefonoDao;
 import ec.edu.ups.dao.UsuarioDao;
-import ec.edu.ups.idao.IUsuarioDao;
 import ec.edu.ups.vista.VistaTelefono;
 import ec.edu.ups.vista.VistaUsuario;
 import java.util.InputMismatchException;
@@ -26,25 +25,25 @@ public class Prueba {
         VistaUsuario vistaU = new VistaUsuario();
         VistaTelefono vistaT = new VistaTelefono();
         //Daos
-        UsuarioDao usuarioDao = new UsuarioDao();
+        UsuarioDao usuarioDao=new UsuarioDao();
         TelefonoDao telefonoDao = new TelefonoDao();
         
         //  Controlador
-        ControladorUsuario controlUsuario = new ControladorUsuario(vistaU, vistaT,usuarioDao,telefonoDao);
+        ControladorUsuario controlUsuario= new ControladorUsuario(vistaU, vistaT,usuarioDao, telefonoDao);
         ControladorTelefono controlTelefono = new ControladorTelefono(vistaT, telefonoDao);
 
-        int opcion; //Guardaremos la opcion del usuario
+        int op; //Guardaremos la opcion del usuario
         //Se crea menu
         while (!salir) {
-            System.out.println("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Agenda Telefonica ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
+            System.out.println("***** Agenda Telefonica *****");
 
-            System.out.println("1. Registrarse ");
-            System.out.println("2. Iniciar Sesion");
+            System.out.println("1. Regístrate");
+            System.out.println("2. Inicia Sesión");
             System.out.println("3. Salir");
-            try {// Si exixte un error o se ingreso mal un dato regresa al menu
-                System.out.println("Escribe una de las opciones");
-                opcion = entrada.nextInt();
-                switch (opcion) {
+            try {//Si el dato ingresado no es correcto
+                System.out.println("Escoge una opción");
+                op= entrada.nextInt();
+                switch (op) {
                     case 1:
                         controlUsuario.registrarUsuario();
                         break;
@@ -66,8 +65,8 @@ public class Prueba {
                                 System.out.println("8. Cerrar Sesion");
                                 try {// Si exixte un error o se ingreso mal un dato regresa al menu
                                     System.out.println("Escribe una de las opciones");
-                                    int op = entrada.nextInt();
-                                    switch (op) {
+                                    int opcion = entrada.nextInt();
+                                    switch (opcion) {
                                         case 1:
                                             controlUsuario.actualizarUsuario();
                                             break;
@@ -115,12 +114,12 @@ public class Prueba {
                         break;
                     default:
                         //Se imprime cuando el usuario no ingresa los valores establecidos
-                        System.out.println("Solo números del 1 al 3");
+                        System.out.println("Sólo números del 1 al 3");
                 }
 
             } catch (InputMismatchException e) {/*Se imprime si el usuario inserta valores que no sean numericos o diferentes al tipo de dato
                  */
-                System.out.println("Debes insertar un número");
+                System.out.println("Solo números");
                 entrada.next();
             }
         }

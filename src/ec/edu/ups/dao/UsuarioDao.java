@@ -6,6 +6,7 @@
 package ec.edu.ups.dao;
 
 import ec.edu.ups.modelo.Usuario;
+import ec.edu.ups.idao.IUsuarioDao;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
  *
  * @author Anahi
  */
-public class UsuarioDao {
+public class UsuarioDao implements IUsuarioDao{
 
     private List<Usuario> listaUsuario;
 
