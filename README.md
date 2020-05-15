@@ -1,5 +1,12 @@
 ### Practica-de-laboratorio-03-Agenda-Telefonica-con-MVC-y-DAO
-#Actividades a realizar**
+
+**OBJETIVOS ALCANZADOS**
+
+* Desarrollar de una aplicación software utilizando el patrón MVC y DAO.
+* Aplicar Git y GitHub para almacenar proyectos trabajados.
+
+**ACTIVIDADES A REALIZAR**
+
 **1:Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 03: Agenda Telefónica con MVC y
 DAO”**
 
@@ -107,8 +114,16 @@ Con el desarrollo de esta aplicación se obtuvo una buena comprensión de el uso
 
 **CONCLUSIONES**
 
-•	La implementación de los patrones MVC y DAO en las aplicaciones de softwares son una manera eficiente para que los programadores encuentren rapidez en su programación y sobre todo seguridad de que su programa tenga los métodos implementados correctamente.
-•	La herramienta Git y GitHub permiten que nuestra programación sea más ordenada logrando así que otras personas puedan visualizar nuestra programación.  
+* La implementación de los patrones MVC y DAO en las aplicaciones de softwares son una manera eficiente para que los programadores encuentren rapidez en su programación y sobre todo seguridad de que su programa tenga los métodos implementados correctamente.
+* La herramienta Git y GitHub permiten que nuestra programación sea más ordenada logrando así que otras personas puedan visualizar nuestra programación.  
 
+**RECOMENDACIONES**
 
+* Seguir utilizando la herramienta Git y el perfil de GitHub para generar un buen historial de nuestras aplicaciones desarrolladas, y de esta manera asegurar un futuro con empleo.
+* Utilizar la programación con patrones MVC y DAO para una mejor manera de realización de nuestras aplicaciones.
 
+**Nombre del Estudiante:** Edith Anahi Cabrera Bermeo
+
+**Firma del Estudiante:** 
+
+![Firma](https://github.com/AnahiCb/Screens-Practica03/blob/master/Firma.jpg)
