@@ -3,7 +3,7 @@
 **1:Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 03: Agenda Telefónica con MVC y
 DAO”**
 
-![Screen Repositorio creado](C:\Users\LENOVO\Desktop)
+![Screen Repositorio creado](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Repositorio.jpg)
 
 **2:Desarrollar una aplicación en Java para gestionar una agenda telefónica según los requerimientos planteados en las instrucciones de la práctica.**
 
@@ -78,3 +78,37 @@ DAO”**
 *2.7.1 Clase Prueba (main)* 
 
 [Prueba](https://github.com/AnahiCb/Pr-ctica-de-laboratorio-03-Agenda-Telef-nica-con-MVC-y-DAO/blob/master/src/ec/edu/ups/test/Prueba.java)
+
+*2.8 Los usuarios pueden registrarse en la aplicación.*
+
+![Screen Registro de Usuario](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Registro.jpg)
+
+*2.9 Un usuario puede iniciar sesión usando su correo y contraseña. Una vez iniciado sesión el usuario podrá: o Registrar, modificar, eliminar, buscar y listar sus teléfonos.*
+
+![Screen Inicio de sesion](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Log%20In.jpg)
+
+![Screen Registro de Telefono](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Ingresar%20Telefono.jpg)
+
+![Screen de Listar Telefono](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20ListarTelefono.jpg)
+
+![Screen de modificar Telefono](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Actualizar%20Telefono.jpg)
+
+![Screen de Buscar Telefono](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Buscar%20Telefono.jpg)
+
+![Screen de Eliminar Telefono](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20EliminarTelefono.jpg)
+
+*3.	Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación desde principio a fin.*
+
+![Screen Commits](https://github.com/AnahiCb/Screens-Practica03/blob/master/Screen%20Commits.jpg)
+
+**RESULTADOS OBTENIDOS**
+
+Con el desarrollo de esta aplicación se obtuvo una buena comprensión de el uso de la aplicación Git como del perfil de GitHub. Además, se realizó de manera más eficaz la aplicación utilizando el patrón MVC y DAO.
+
+**CONCLUSIONES**
+
+•	La implementación de los patrones MVC y DAO en las aplicaciones de softwares son una manera eficiente para que los programadores encuentren rapidez en su programación y sobre todo seguridad de que su programa tenga los métodos implementados correctamente.
+•	La herramienta Git y GitHub permiten que nuestra programación sea más ordenada logrando así que otras personas puedan visualizar nuestra programación.  
+
+
+
